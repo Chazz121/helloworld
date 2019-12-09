@@ -1,0 +1,9 @@
+[Unit]
+Description=test web application
+
+[Service]
+ExecStart=/home/ubuntu/helloworld/server.js
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
